@@ -7,6 +7,11 @@ import TabButton from "./components/TabButton/TabButton.jsx"
 }
 
 
+function clickHandler() {
+  console.log("Hello world!!!");
+}
+
+
 function App() {
   return (
     <div>
@@ -26,7 +31,7 @@ function App() {
           <h2>Examples</h2>
           <menu>
             {/* component composition (children props) */}
-            <TabButton>Components</TabButton>
+            <TabButton onSelect = {clickHandler}>Components</TabButton>
             <TabButton>JSX</TabButton>
             <TabButton>Props</TabButton>
             <TabButton>State</TabButton>
