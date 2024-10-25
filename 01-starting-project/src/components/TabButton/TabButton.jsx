@@ -1,7 +1,10 @@
 export default function TabButton({ children }) {
+   function clickHandler() {
+     console.log("Hello world!!!");
+   }
   return (
     <li>
-      <button>{children}</button>
+      <button onClick = {clickHandler}>{children}</button>
     </li>
   );
 }

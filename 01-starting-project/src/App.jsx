@@ -25,6 +25,7 @@ function App() {
         <section id = "examples">
           <h2>Examples</h2>
           <menu>
+            {/* component composition (children props) */}
             <TabButton>Components</TabButton>
             <TabButton>JSX</TabButton>
             <TabButton>Props</TabButton>
